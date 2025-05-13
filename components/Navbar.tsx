@@ -38,13 +38,13 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           {/* Left: Logo + Title */}
           <div className="flex items-center space-x-3">
-            <Link href="/" className="flex items-center mb-1">
+            {/* <Link href="/" className="flex items-center mb-1">
               <img
                 src="https://eu-images.contentstack.com/v3/assets/blt0a48a1f3edca9eb0/blt5c1cc0b2b2b995f2/658c08b5645620040b630efe/NEW_LOGO.jpg"
                 alt="AbbVie Logo"
                 className="h-8 w-auto object-contain align-middle inline-block"
               />
-            </Link>
+            </Link> */}
             <Link href="/" className="flex items-center">
               <span
                 className={`text-lg font-semibold ${montserrat.className}`}
